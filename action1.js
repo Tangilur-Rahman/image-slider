@@ -16,6 +16,11 @@ next.addEventListener("click",function(){
         imageSlide(flag);
 });
 
+setInterval(function(){
+     flag +=1;
+     imageSlide(flag);
+     
+ },4000);
 
 imageSlide(flag);
 
